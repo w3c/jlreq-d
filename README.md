@@ -4,8 +4,7 @@
 This is a working document and can change with the progress of the project. The English version of this document is coming soon (how soon?).
 
 ## The motivation
-
-Like manuscript and printed text, the printed text and digital text stand on fundamentally different technologies. For example, one fundamental difference is when/where the layout is finalised. With printing, the sender of the text, typically after manual inspections, fixes the layout and the single static image is distributed to the receivers. With digital text, the layout is not resolved until the last minute, and many different images are generated automatically at the receiver's device, depending on the device environment and their preferences. Such differences give digital text unique limitations and possibilities intrinsically different from printed text.
+Like manuscript and printed text, the printed text and digital text stand on fundamentally different technologies. One fundamental difference is when/where the layout is finalised. With printing, the sender of the text fixes the layout, typically after manual inspections, and the single static image is distributed to the receivers. With the digital text, the layout is not resolved until the last minute, and on the receiver's device many different images are generated automatically depending on the device environment and their preferences. Such differences give digital text unique limitations and possibilities intrinsically different from printed text.
 
 For this reason, we believe there are benefits to producing a document dedicated to the digital text. At the meeting held on Oct. 2021, the JLreq Task Force members agreed to develop such a document as something that succeeds the existing JLreq that describes text layout on print. The tentative name is JLreq-d.
 
@@ -13,14 +12,14 @@ Because the digital text has a shorter history and is evolving, there will be is
 
 (The construction of the English version is in progress)
 
-
 # 日本語デジタルテキスト組版の要件
 これは「生きている文書」であり、内容がプロジェクトの進行につれて変化する可能性があります。
 
 ## モティベーション
-印刷と、Webに代表されるデジタルテキストでは、馬車と自動車のように、目的は同じでも技術的な成り立ちが根底から異なる。最も根本的な違いは、誰が組版を決定するかにある。印刷においては送り手が組版を決定し単一のコピーが受け手に配布される。デジタルテキストにおいて受け手の元で無数の異なる組版が生成される。このような違いが印刷と異なる制約条件と可能性を生み出す[^note]。このため、印刷のためではない、デジタルネイティブな組版の要件文書が必要だと考える。JLReq の先にあるものとしてそのような文章を開発すること、またそれを JLReq とは別個の、デジタルテキストにフォーカスしたドキュメントとすることの合意が JLReq TF で行われた（2021/10）。とりあえずの略称を JLreq-d とする。
-
+ちょうど手書きによる書写と印刷のように、印刷とWebに代表されるデジタルテキストでは、技術的な成り立ちが根底から異なっている。一つの根本的な違いは誰が組版を決定するかにある。印刷においては送り手が、しばしばプロによる校正ののち組版を決定し、単一のイメージに固定したものを受け手に配布する。デジタルテキストにおいては組版は送り手の元で完成せず、受け手の元で無数の異なるイメージが生成される。このような違いが印刷と本質的に異なる制約条件と可能性を生み出す[^note]。
 [^note]: 詳細は 2019/03/31 Keiko Univ. APL 報告の木田の文章参照（ここにチェックインしておく？）。
+
+このため、印刷のためではない、デジタルネイティブな組版について記述した文書を開発することは有用であると考える。デジタルテキストにフォーカスした要件文章を JLReq の先にあるものとして開発することの合意が JLReq TF で行われた（2021/10）。とりあえずの略称を JLreq-d とする。
 
 デジタルデバイス上の組版は進化しつつある技術なので、単一の答えがなかったり、そもそも答えのない問題もあるだろう。それでも、現在までの経験や考察によりわかっていること、また明らかになった課題などを、一旦ここでまとめておくことに意味があると考える。また、現状に追い越されないように、一旦の完成後も将来のチームによって継続的なアップデートが必要になろう。
 
