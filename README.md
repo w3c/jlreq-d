@@ -1,4 +1,4 @@
-[日本語の説明](#日本語デジタルテキスト組版の要件)は英文の後にあります。
+[日本語](#日本語デジタルテキスト組版の要件)は英文の後にあります。
 # Requirements for Japanese Digital Text Layout
 
 This Readme is a working document. We will update it along with the progress of the project. The English part of this document is in progress and incomplete.
@@ -32,7 +32,7 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 - E-books which has a structure as a book
 - Web pages and text books with improved accessibility
 
-### These are not the target
+### Non targets
 - Page layout and other applications who's purpose is to generate printed materials. JLreq covers them
 - Graphic design and advitisement however the document would cover the basics
 
@@ -42,6 +42,9 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 …
 
 …
+## Draft TOC
+See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft) at GitHub wiki of this repository.
+
 
 # 日本語デジタルテキスト組版の要件
 これは「生きている文書」であり、内容がプロジェクトの進行につれて変化する可能性があります。
@@ -113,5 +116,3 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 
 ## 目次案
 このレポジトリのGitHub wiki内の[目次案](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft)を参照ください。
-
-See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft) at GitHub wiki of this repository.
