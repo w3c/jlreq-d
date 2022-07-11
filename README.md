@@ -35,6 +35,7 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 - Web pages and text books, with improved accessibility
 
 ### Non targets
+- Imitating the look of the pinted books. JLreq covers them
 - Page layout and other applications who's purpose is to generate printed materials. JLreq covers them
 - Graphic design and advertisements, however the document would cover the basics
 
@@ -85,6 +86,7 @@ See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-dra
 - アクセシビリティの重要なWebページや教科書
 
 #### 対象外
+- 印刷された書籍の見かけを模倣すること。これはJLReqが対応する
 - 印刷のためのページレイアウトアプリケーション。これらはJLReqが対応する
 - グラフィックデザインや広告。基本的な事柄はサポートするが詳細は対象外
 
