@@ -23,11 +23,11 @@ So, there is still a large gap that software engineers to fill, sometimes by con
 
 The last motivation is accessibility. Accessibility is becoming increasingly important, even for ordinary software and digital content. One unique advantage of digital text is the flexibility of the final image. Users can adjust it to their personal needs. The new document will explain things that creators of software and content need to consider to improve accessibility. It will treat accessibility as something basic that everyone has to know.
 
-## The target audience
+## Target audience
 - Software Developers
 - Content authors
 
-## The target applications
+## Target applications
 - Simple text without styling or only basic styles, such as mail and notes
 - Web pages
 - Word processor applications with pages
@@ -38,7 +38,10 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 - Page layout and other applications who's purpose is to generate printed materials. JLreq covers them
 - Graphic design and advertisements, however the document would cover the basics
 
-## The approach
+## Approach
+### Editorial policy
+- Where possible and appropriate, the document will try providing reasons behind particular layout rules to help readers to understand the feature better. When there are multiple possible ways or values or no clear answer, it will also try providing background information to help readers make their own decisions. We also expect they will facilitate discussions and progress.
+- The document will arrange sections from basic features that everybody has to understand to high-level or area-specific features.
 …
 
 …
@@ -86,9 +89,9 @@ See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-dra
 - グラフィックデザインや広告。基本的な事柄はサポートするが詳細は対象外
 
 ## アプローチ
-### 書き方の方針
-- 考え方を示す：デジタル技術の進化は早く、その上に成り立つデジタルテキストも従来より早い速度で変化してゆくと考えられる。ゆえ、組版の一つの方法をはっきりと示しつつも権威的にならず、同時に他の方法、その機能を考える際に重要なこと、答えのない課題などを提示することによって、判断のベースにし、また将来の進化を促す inspiring な内容にする。
-- 基本的機能からより高度な機能へ内容を配列する：入口を低くする
+### 編集方針
+- 考え方を示す：組版機能に対し、なぜそのような方法になっているのか、その理由を可能な限り示すことでより良い理解を助ける。可能な方法や値が一つでない場合や、明確な答えがない場合には、その機能を考える際に重要な要素を示すことで、独自の判断を助ける。結果のみではなく理由を示すことで、議論と将来の進化を促すような内容にする。
+- 誰もが理解すべき基本的機能から、高度なもしくは特定の分野のみで必要な機能へと内容を配列する
 
 ### デジタルにおける新しい要素
 - リフローアーキテクチャ。無数の組版が読み手の手元で生成されるアーキテクチャ
