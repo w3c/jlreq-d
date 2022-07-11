@@ -3,38 +3,40 @@
 
 This Readme is a working document. We will update it along with the progress of the project. The English part of this document is in progress and incomplete.
 
+The [Japanese Language Enablement](https://w3c.github.io/jlreq/home) home page provides links and information about related work and the organization of the group. This page focuses specifically on information related to the document Requirements for Japanese Digital Text Layout.
+
 ## The motivation
-Like manuscript and printed text, printed text and digital text stands on fundamentally different technologies. One fundamental difference is when/where the layout is finalised. With printing, the sender of the text fixes the layout, typically after manual inspections, and the sender distributes the single static image to all the receivers. With digital text, the layout is not resolved until the last minute. Many different images are generated automatically depending on the device environment and their preferences on the receiver's device. Such differences give digital text unique limitations and possibilities intrinsically distinct from printed text.
+Like manuscript and printed text, printed text and digital text stand on fundamentally different technologies. One fundamental difference is when/where the layout is finalised. With printing, the sender of the text fixes the layout, typically after manual inspections, and the sender distributes the single static image to all the receivers. With digital text, the layout is not resolved until the last minute. Many different images are generated automatically depending on the device environment and their preferences on the receiver's device. Such differences give digital text unique limitations and possibilities that are intrinsically distinct from printed text.
 
-For this reason, we believe there are benefits to producing a document dedicated to digital text. At the meeting held on Oct. 2021, the JLreq Task Force members agreed to develop such a document as something that succeeds the existing JLreq that describes text layout on print. The tentative name is JLreq-d.
+For this reason, we believe that there are benefits to producing a document dedicated to digital text. At the meeting held in Oct. 2021 the JLreq Task Force members agreed to develop such a document as a successor to the existing JLreq, which describes text layout in print. The tentative name is JLReq-d.
 
-Because the digital text has a shorter history and is evolving, there will be areas to which we do not have a definite answer, and there will be issues with open questions. Still, we believe it is worth collecting practices we know so far and adding our thoughts to them. After the first version's completion, it needs to be updated periodically because the area is still in progress.
+Because digital text has a shorter history and is evolving, there will be areas to which we do not have a definitive answer, and there will be issues with open questions. Still, we believe it is worth collecting practices we know of so far, and adding our thoughts to them. After the first version is complete it will need to be updated periodically because the technology is still in progress.
 
-Another motivation for a new document is better support for software development. JLreq was almost revolutionary by describing the world of the high-quality Japanese text layout in English for the first time. Still, those who wish to implement Japanese layout software based on the JLreq face a few issues:
+Another motivation for a new document is better support for software development. JLreq is almost revolutionary in that it describes the world of high-quality Japanese text layout in English for the first time. Still, those who wish to implement Japanese layout software based on JLreq face a few issues:
 * The way JLreq is written is primarily generic and independent of particular technologies.
-* The layout system evolved within a local market. As a result, it has a gap between internationalised systems.
-* Some features are complex, but how you can simplify them or take a phased approach is not evident.
+* The layout system evolved within a local market. As a result, there is a gap between it and internationalised systems.
+* Some features are complex, but how to simplify them or take a phased approach is not evident.
 * It describes many features, but priorities between them are not evident. Similarly, when there are multiple ways to do one thing, it is not clear how one can choose one against another.
 * Some areas are not covered well, e.g. fonts.
 
-So, it still has a large gap that software engineers have to fill, sometimes by consulting with an expert in Japanese text layout, sometimes with never-ending discussions, and sometimes with guesswork. Such gap costs and slows development, sometimes makes people give up. We want to solve it by addressing the abovementioned issues. We expect it leads to better and more consistent implementations faster.
+So, there is still a large gap that software engineers to fill, sometimes by consulting with an expert in Japanese text layout, sometimes with never-ending discussions, and sometimes with guesswork. Such gaps cost and slow development, sometimes making people give up. We want to solve those issues by addressing the abovementioned items. We expect it to lead to better and more consistent implementations, and to do so faster.
 
-The last motivation is accessibility. Accessibility is becoming increasingly important, even for ordinary software and digital content. One unique advantage of digital text is the flexibility of the final image. Users can adjust it to their personal needs. The new document will explain things that creators of software and content need to consider to improve accessibility. It will treat accessibility as something ordinary that everyone has to know.
+The last motivation is accessibility. Accessibility is becoming increasingly important, even for ordinary software and digital content. One unique advantage of digital text is the flexibility of the final image. Users can adjust it to their personal needs. The new document will explain things that creators of software and content need to consider to improve accessibility. It will treat accessibility as something basic that everyone has to know.
 
 ## The target audience
 - Software Developers
 - Content authors
 
 ## The target applications
-- Simple text without or only basic styles such as mail and notes
+- Simple text without styling or only basic styles, such as mail and notes
 - Web pages
 - Word processor applications with pages
-- E-books which has a structure as a book
-- Web pages and text books with improved accessibility
+- E-books, which are structured as a book
+- Web pages and text books, with improved accessibility
 
 ### Non targets
 - Page layout and other applications who's purpose is to generate printed materials. JLreq covers them
-- Graphic design and advitisement however the document would cover the basics
+- Graphic design and advertisements, however the document would cover the basics
 
 ## The approach
 …
