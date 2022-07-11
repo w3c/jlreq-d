@@ -45,7 +45,7 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 ## Draft TOC
 See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft) at GitHub wiki of this repository.
 
-
+#
 # 日本語デジタルテキスト組版の要件
 これは「生きている文書」であり、内容がプロジェクトの進行につれて変化する可能性があります。
 
