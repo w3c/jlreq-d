@@ -6,11 +6,11 @@ This Readme is a working document. We will update it along with the progress of 
 The [Japanese Language Enablement](https://w3c.github.io/jlreq/home) home page provides links and information about related work and the organization of the group. This page focuses specifically on information related to the document Requirements for Japanese Digital Text Layout.
 
 ## The motivation
-Like manuscript and printed text, printed text and digital text stand on fundamentally different technologies. One fundamental difference is when/where the layout is finalised. With printing, the sender of the text fixes the layout, typically after manual inspections, and the sender distributes the single static image to all the receivers. With digital text, the layout is not resolved until the last minute. Many different images are generated automatically depending on the device environment and their preferences on the receiver's device. Such differences give digital text unique limitations and possibilities that are intrinsically distinct from printed text.
+Like manuscript and printed text, printed text and digital text stand on fundamentally different technologies. One fundamental difference is when/where the layout is finalised. With print, the sender of the text fixes the layout, typically after manual inspections, and the sender distributes the single static image to all the receivers. With digital text, the layout is not resolved until the last minute. Many different images are generated automatically depending on the device environment and their preferences on the receiver's device. Such differences give digital text unique limitations and possibilities that are intrinsically distinct from printed text.
 
 For this reason, we believe that there are benefits to producing a document dedicated to digital text. At the meeting held in Oct. 2021 the JLreq Task Force members agreed to develop such a document as a successor to the existing JLreq, which describes text layout in print. The tentative name is JLreq-d.
 
-Because digital text has a shorter history and is evolving, there will be areas to which we do not have a definitive answer, and there will be issues with open questions. Still, we believe it is worth collecting practices we know of so far, and adding our thoughts to them. After the first version is complete it will need to be updated periodically because the technology is still in progress.
+Because digital text has a shorter history and is evolving, there will be areas to which we do not have definitive answers, and there will be areas with open questions. Still, we believe it is worth collecting practices we know of so far, and adding our thoughts to them. After the first version is complete it would need to be updated periodically because the technology is still in progress.
 
 Another motivation for a new document is better support for software development. JLreq is almost revolutionary in that it describes the world of high-quality Japanese text layout in English for the first time. Still, those who wish to implement Japanese layout software based on JLreq face a few issues:
 * The way JLreq is written is primarily generic and independent of particular technologies.
@@ -19,16 +19,17 @@ Another motivation for a new document is better support for software development
 * It describes many features, but priorities between them are not evident. Similarly, when there are multiple ways to do one thing, it is not clear how one can choose one against another.
 * Some areas are not covered well, e.g. fonts.
 
-So, there is still a large gap that software engineers to fill, sometimes by consulting with an expert in Japanese text layout, sometimes with never-ending discussions, and sometimes with guesswork. Such gaps cost and slow development, sometimes making people give up. We want to solve those issues by addressing the abovementioned items. We expect it to lead to better and more consistent implementations, and to do so faster.
+So, there is still a large gap that software engineers to fill. They have to fill it by consulting with experts in Japanese text layout, sometimes with never-ending discussions, and sometimes with a guesswork. Such gaps cost and slow development, often making people give up. We want to solve it by addressing abovementioned issues. We expect it to lead to better and more consistent implementations, and to do so faster.
 
 The last motivation is accessibility. Accessibility is becoming increasingly important, even for ordinary software and digital content. One unique advantage of digital text is the flexibility of the final image. Users can adjust it to their personal needs. The new document will explain things that creators of software and content need to consider to improve accessibility. It will treat accessibility as something basic that everyone has to know.
 
 ## Target audience
 - Software Developers
 - Content authors
+Including those that are with limited knowledge in Japanese language.
 
 ## Target applications
-As mentioned earlier, the layout of digital text has its unique limitations and possibilities that are dictinct from printed text. As the object of JLReq-d is to reflect them to the requirements, applications that aim to reproduce details of traditional line layout are out of scope. Please refer JLReq for such a case.
+As mentioned earlier, the layout of digital text has its unique limitations and possibilities that are dictinct from printed text. As the object of JLReq-d is to reflect them to the requirements, applications that aim to reproduce details of traditional line layout are out of scope. Please refer to the original JLReq for such a requirements.
 
 These applications for example are out of the scope:
 - Professional page layout applications or word processor applications that aim to reproduce details of traditional layout
@@ -45,11 +46,37 @@ JLReq-d targets these applications:
 - Graphic design and advertisements, however the document would cover the basics
 
 ## Editorial policy
-- Where possible and appropriate, the document will try providing reasons behind particular layout rules to help readers to understand the feature better. When there are multiple possible ways or values or no clear answer, it will also try providing background information to help readers make their own decisions. We also expect they will facilitate discussions and progress.
-- The document will arrange sections from basic features that everybody has to understand to high-level or area-specific features.
-…
+### Explain background information
+- Where possible and appropriate, the document will try providing reasons behind layout rules in order to help readers to understand the feature better. When there are multiple possible ways or values or no clear answer, it will also try providing background information to help readers make their own decisions. We also expect they will facilitate discussions and future progress.
 
-…
+### Describe Japanese layout in internationalised software environment
+- The original JLReq describes the Japanese line layout rules that have established and closed within the domestic market. JLReq-d will try to describe it as one of the language in an internationalised software environment. In a sense the difference is similar to the comparison between the JIS character standard and the Unicode.
+- It will cover necssary basic knowledge of Japanese language for those who are not necesarily familiar with the language.
+- It will cover technologies such as fonts that are necessary to implement Japanese language in an internationalized environment but are not covered well in the original JLReq.
+
+### Handling of technologies
+- It will choose a few basic and stable technologies and use them in the description to facilitate development. Will clearly document ones that are assumed. The current thinkinig is Unicode, HTML/CSS, and smart fonts like OpenType.
+- It will try point out when we found shortcomings in the current standards or implementations to achieve necessary layout features. These parts will need periodical updates.
+
+### Facilitating development
+- It will try reducing the standardization and development cost by making the specification simpler where possible and appropriate, and by suggesting relative priorities and default values with reasonings.
+
+### Content structure
+- It will first describe basic knowledge and features that everyone needs to understand and implement, folloed by high level features and area specific features.
+
+## Imcomplete list of new items in digital
+- It reflows. A large number of different layouts are generated at users' hand depending on the their environment and preferences.
+- The codex (vs scroll) loses most of its benefits on digital.
+- It is searchable.
+- ラグ組や空白行で区切られる欧文スタイルのパラグラフ
+- ベースラインなど欧文ベースのエンジン上での振る舞い
+- プロポーショナルな要素を多く含むテキスト、またプロポーショナルな和文書体の扱い
+- リンクによるナビゲーションや注の機能など、デジタルテキストならではの優れた機能の利用
+- より良いアクセシビリティの可能性
+- 多様なサイズの画面。モバイルデバイスに代表される小さな画面
+- 動的挙動やUI。例えばルビが含まれたテキストを選択した場合の見かけ、コピーしたら何がコピーされるか、など。
+- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能と、ルビのようにマークアップなどでの指定が必要な機能の区別がある
+- 複数の方法がある場合、それが実装者の選択であるべき場合と、エンドユーザーの選択であるべき場合がある。印刷ではそれらを組版を行うものが決めていた。この点はアクセシビリティに重要かと思われる。
 
 …
 ## Draft TOC
@@ -84,6 +111,7 @@ See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-dra
 ## 対象読者
 - ソフトウェア開発者
 - コンテンツ制作者
+必ずしも日本語に精通しない読者を含む。
 
 ## 対象アプリケーション
 モティベーションの項で述べたように、デジタルテキストの組版は従来の印刷と異なる制約と可能性を持っている。それらを要件に反映するのがJLReq-dの目的であるから、印刷組版の詳細な再現が重要な応用は対象外となる。そのような応用に対してはJLReqが対応する。
@@ -100,24 +128,19 @@ JLReq-d は下のような応用を念頭に置く：
 
 ## 編集方針
 ### 考え方を示す
-組版機能に対し、なぜそのような方法になっているのか、その理由を示すことでより良い理解を助ける。組版の方法や値が複数ある場合や、明確な答えがない場合には、その機能を考える際に重要な要素を示すことで独自の判断を助ける。結果のみではなく理由を示すことで、そこで示されている方法と異なった方法を試みることを可能にし、また議論と将来の進化を促すような内容にする。
+- 組版機能に対し、なぜそのような方法になっているのか、その理由を示すことでより良い理解を助ける。組版の方法や値が複数ある場合や、明確な答えがない場合には、その機能を考える際に重要な要素を示すことで独自の判断を助ける。結果のみではなく理由を示すことで、そこで示されている方法と異なった方法を試みることを可能にし、また議論と将来の進化を促すような内容にする。
 
 ### 国際化環境の中の日本語として記述
-従来のJLReqは日本語に閉じた環境を扱っている。その意味でJLReqはJIS文字規格に似ている。JLreq-dではUnicodeのように国際化ソフトウェア環境の中の一つの言語としての日本語を扱う。その前提で、外国語、数式など、日本語組版の中で規定する必要のないものは対象外。界面の振る舞いのみを定義する。
-
-日本語や日本語組版に必ずしも精通していない技術者の理解のため、基本から書く。
-
-フォントなど、JIS X 4051 や JLReq が詳しく扱っていないが、国際化環境の中に日本語組版を成り立たせるために必要な技術をカバーする。
+- 従来のJLReqは日本語に閉じた環境を扱っている。その意味でJLReqはJIS文字規格に似ている。JLreq-dではUnicodeのように国際化ソフトウェア環境の中の一つの言語としての日本語を扱う。その前提で、外国語、数式など、日本語組版の中で規定する必要のないものは対象外。界面の振る舞いのみを定義する。
+- 日本語や日本語組版に必ずしも精通していない技術者の理解のため、基本から書く。
+- フォントなど、JIS X 4051 や JLReq が詳しく扱っていないが、国際化環境の中に日本語組版を成り立たせるために必要な技術をカバーする。
 
 ### 技術の扱いの方針
-現在進行形の技術の中での組版であり、また実装を支援するために、確立され今後も使われると思われる基礎的な技術を前提として受け入れて記述する。現時点での想定は、Unicode、ウェブ技術、高機能フォント。これら前提として採用している技術はドキュメントする。
-
-必要な組版機能に対して規格・実装に不足があれば、その不足を洗い出して指摘する。規格化や実装が前に進んでいない機能を分析する。それらが前に進むことを支援できるように整理を行う。この部分は規格や実装の進みに合わせて頻繁なアップデートが必要であろう（もしくは副産物として文書の外？）
+- 実装を支援するために、確立され今後も使われると思われる基礎的な技術を前提として受け入れて記述する。これら前提として採用している技術はドキュメントする。現時点での想定は：Unicode、ウェブ技術、高機能フォント。
+- 必要な組版機能に対して規格・実装に不足があれば、その不足を洗い出して指摘する。この部分は規格や実装の進みに合わせて頻繁なアップデートが必要であろう。
 
 ### 実装支援
 - シンプル化、プライオリティ付け、デフォルトの方法の提案などにより規格化コスト・実装コストを下げる
-- 複数の方法がある場合、それが実装者の選択であるべきか、エンドユーザーの選択であるべきかを見分ける。印刷ではそれらを組版を行うものが決めていた。この点はアクセシビリティにも重要かと思われる。
-- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能と、ルビのようにマークアップなどでの指定が必要な機能が見分けられるように書く
 
 ### 項目の排列の方針
 誰もが理解すべき基本的機能から、高度なもしくは特定の分野のみで必要な機能へと内容を配列する
@@ -134,7 +157,8 @@ JLReq-d は下のような応用を念頭に置く：
 - より良いアクセシビリティの可能性
 - 多様なサイズの画面。モバイルデバイスに代表される小さな画面
 - 動的挙動やUI。例えばルビが含まれたテキストを選択した場合の見かけ、コピーしたら何がコピーされるか、など。
-
+- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能と、ルビのようにマークアップなどでの指定が必要な機能の区別がある
+- 複数の方法がある場合、それが実装者の選択であるべき場合と、エンドユーザーの選択であるべき場合がある。印刷ではそれらを組版を行うものが決めていた。この点はアクセシビリティに重要かと思われる。
 
 ## 目次案
 このレポジトリのGitHub wiki内の[目次案](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft)を参照ください。
