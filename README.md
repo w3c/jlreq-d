@@ -28,11 +28,17 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 - Content authors
 
 ## Target applications
-- Simple text without styling or only basic styles, such as mail and notes
-- Web pages
-- Word processor applications with pages
-- E-books, which are structured as a book
-- Web pages and text books, with improved accessibility
+As mentioned earlier, the layout of digital text has its unique limitations and possibilities that are dictinct from printed text. As the object of JLReq-d is to reflect them to the requirements, applications that aim to reproduce details of traditional line layout are out of scope. Please refer JLReq for such a case.
+
+These applications for example are out of the scope:
+- Professional page layout applications or word processor applications that aim to reproduce details of traditional layout
+- E-book applications that aim to reproduce the layout of printed books
+
+JLReq-d targets these applications:
+- Mail, notes or UI text: Simple text without a style or only basic styles. Typically without justification
+- Web pages: reflow and scroll
+- Word processor and presentation apps: which have a concept of a page
+- E-books: which are structured as books
 
 ### Non targets
 - Page layout and other applications who's purpose is to generate printed materials. JLreq covers them
@@ -80,19 +86,17 @@ See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-dra
 - コンテンツ制作者
 
 ## 対象アプリケーション
-モティベーションの項で述べたように、デジタルテキストの組版においては、活字や写植の機構やワークフローから来る制限がなくなり、デジタルテキストの仕組みや開発体制、使われ方などを反映した新たな制限や可能性が生まれる。それらを反映するのがJLReq-dの目的であるから、出力先がPDFである場合も含め印刷組版の再現が重要な応用は対象外となる。そのような応用に対してはJLReqが対応する。
+モティベーションの項で述べたように、デジタルテキストの組版は従来の印刷と異なる制約と可能性を持っている。それらを要件に反映するのがJLReq-dの目的であるから、印刷組版の詳細な再現が重要な応用は対象外となる。そのような応用に対してはJLReqが対応する。
 
 例えば下記のような応用は対象外となる：
-- 書籍など印刷紙面の作成を本来の目的とした組版アプリケーション
+- 書籍など印刷紙面の作成を本来の目的とし、印刷組版の詳細な再現が重要な組版アプリケーションやワードプロセッサー
 - 印刷された書籍の見掛けの再現が重要な電子書籍アプリケーション
 
-JLReq-d は下のようなアプリケーションを念頭に置く：
-- メールやメモなど日常のテキスト：組版指定なしまたは簡単なスタイルのみ。典型的に行頭揃え
+JLReq-d は下のような応用を念頭に置く：
+- メール、メモ、UIテキストなど：組版指定なしまたは簡単なスタイルのみのシンプルなテキスト。典型的に行頭揃え
 - Web ページ：リフロー、スクロールするもの
-- ワードプロセッサーやプレゼンテーションソフトなど：ページの概念のあるもの。デジタル文書作成が目的であり、印刷組版の再現を目的としないもの
-- 電子書籍：書籍としての構成を持つが、印刷された書籍の再現を目的としないもの
-- アクセシビリティの重要なWebページや教科書
-（木田：このセクション英語が out of sync）
+- 電子文書の作成を目的としたワードプロセッサーやプレゼンテーションソフトなど：ページの概念のあるもの
+- 電子書籍：書籍としての構成を持つが、印刷書籍の再現を目的としないもの
 
 ## 編集方針
 ### 考え方を示す
