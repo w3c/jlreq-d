@@ -66,9 +66,9 @@ JLReq-d targets these applications:
 - The codex (vs scroll) format, the way pages are bound as book, loses most of its benefits on digital.
 - It is searchable. It has to be searchable for, among other things, accessibility.
 - How does Western style layout such as left justification and paragraphs separated by a linefeed fit?
-- How Japanese characters should be placed and behave on Wetern style layout system using the baseline?
-- How do we layout lines that has many proportional characters? Before print Japanese characters were also proportional and there are such fonts.
-- There are a few different ways of adding notes to the text. Many of them are placed in or at the side of the line. Which one should we preserve and which can be replaced by new ways of adding notes in digital text?
+- How Japanese characters should be placed and behave in a Western-style layout system using the baseline?
+- How do we layout lines that have many proportional characters? Before print Japanese characters were also proportional and there are such fonts.
+- There are a few different ways of adding notes (or parallel streams of information) to the text. Many of them are placed in or at the side of the line. Which one should we preserve and which can be replaced by new ways of adding notes in digital text?
 - Digital for better accessibility.
 - Has to support wide variety of screen sizes, from smartphones to a large screen. For example how line length and the cap between lines should be when the size changes?
 - The dynamic behaviour of the text on UI has to be described. For example what should be highlighted when you select lines with ruby? What should be copied when it is copied?
