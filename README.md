@@ -19,7 +19,7 @@ Another motivation for a new document is better support for software development
 * It describes many features, but priorities between them are not evident. Similarly, when there are multiple ways to do one thing, it is not clear how one can choose one against another.
 * Some areas are not covered well, e.g. fonts.
 
-So, there is still a large gap that software engineers to fill. They have to fill it by consulting with experts in Japanese text layout, sometimes with never-ending discussions, and sometimes with a guesswork. Such gaps cost and slow development, often making people give up. We want to solve it by addressing abovementioned issues. We expect it to lead to better and more consistent implementations, and to do so faster.
+So, there is still a large gap that software engineers need to fill. They have to fill it by consulting with experts in Japanese text layout, sometimes with never-ending discussions, and sometimes with guesswork. Such gaps are costly and slow development, often making people give up. We want to solve it by addressing the above-mentioned issues. We expect it to lead to better and more consistent implementations, and to do so faster.
 
 The last motivation is accessibility. Accessibility is becoming increasingly important, even for ordinary software and digital content. One unique advantage of digital text is the flexibility of the final image. Users can adjust it to their personal needs. The new document will explain things that creators of software and content need to consider to improve accessibility. It will treat accessibility as something basic that everyone has to know.
 
