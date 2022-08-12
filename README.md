@@ -1,7 +1,7 @@
 [日本語](#日本語デジタルテキスト組版の要件)は英文の後にあります。
 # Requirements for Japanese Digital Text Layout
 
-This Readme is a working document. We will update it along with the progress of the project. The English part of this document is in progress and incomplete.
+This Readme is a working document. We will update it along with the progress of the project.
 
 The [Japanese Language Enablement](https://w3c.github.io/jlreq/home) home page provides links and information about related work and the organization of the group. This page focuses specifically on information related to the document Requirements for Japanese Digital Text Layout.
 
@@ -151,7 +151,7 @@ JLReq-d は下のような応用を念頭に置く：
 - デジタルテキストにはより良いアクセシビリティの可能性がある
 - 多様なサイズの画面。モバイルデバイスに代表される小さな画面から大きな画面までをサポートする必要がある。例えば多様なサイズに対して行長と行間はどうあるべきか？
 - UIにおける動的挙動を定義する必要がある。例えばルビが含まれたテキストを選択した場合、何がハイライトされるべきか？　コピーしたら何がコピーされるべきか？
-- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能、ルビのように作成者による指定が必要な機能、そしてフォントサイズのようにエンドユーザーの選択が可能であるべき機能などの区別がある。印刷ではそれら全てをを組版を行うものが決め固定していた。この点を意識して記述する必要がありそうだ。
+- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能、ルビのように作成者による指定が必要な機能、そしてフォントサイズのようにエンドユーザーの選択が可能であるべき機能などの区別がある。印刷ではそれら全てを組版を行うものが決め、固定していた。この点を意識して記述する必要がありそうだ。
 
 ## 目次案
 このレポジトリのGitHub wiki内の[目次案](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft)を参照ください。
