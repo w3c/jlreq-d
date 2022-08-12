@@ -41,10 +41,6 @@ JLReq-d targets these applications:
 - Word processor and presentation apps: which have a concept of a page
 - E-books: which are structured as books
 
-### Non targets
-- Page layout and other applications who's purpose is to generate printed materials. JLreq covers them
-- Graphic design and advertisements, however the document would cover the basics
-
 ## Editorial policy
 ### Explain background information
 - Where possible and appropriate, the document will try providing reasons behind layout rules in order to help readers to understand the feature better. When there are multiple possible ways or values or no clear answer, it will also try providing background information to help readers make their own decisions. We also expect they will facilitate discussions and future progress.
