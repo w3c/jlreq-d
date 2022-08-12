@@ -64,21 +64,19 @@ JLReq-d targets these applications:
 ### Content structure
 - It will first describe basic knowledge and features that everyone needs to understand and implement, folloed by high level features and area specific features.
 
-## Imcomplete list of new items in digital
-- It reflows. A large number of different layouts are generated at users' hand depending on the their environment and preferences.
-- The codex (vs scroll) loses most of its benefits on digital.
-- It is searchable.
-- ラグ組や空白行で区切られる欧文スタイルのパラグラフ
-- ベースラインなど欧文ベースのエンジン上での振る舞い
-- プロポーショナルな要素を多く含むテキスト、またプロポーショナルな和文書体の扱い
-- リンクによるナビゲーションや注の機能など、デジタルテキストならではの優れた機能の利用
-- より良いアクセシビリティの可能性
-- 多様なサイズの画面。モバイルデバイスに代表される小さな画面
-- 動的挙動やUI。例えばルビが含まれたテキストを選択した場合の見かけ、コピーしたら何がコピーされるか、など。
-- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能と、ルビのようにマークアップなどでの指定が必要な機能の区別がある
-- 複数の方法がある場合、それが実装者の選択であるべき場合と、エンドユーザーの選択であるべき場合がある。印刷ではそれらを組版を行うものが決めていた。この点はアクセシビリティに重要かと思われる。
+## Random list of new items, characteristics, or things that has to be considered in digital text
+- It reflows. A large number of different layouts are generated at users' hand depending on their environment and preferences.
+- The codex (vs scroll) format, the way pages are bound as book, loses most of its benefits on digital.
+- It is searchable. It has to be searchable for, among other things, accessibility.
+- How does Western style layout such as left justification and paragraphs separated by a linefeed fit?
+- How Japanese characters should be placed and behave on Wetern style layout system using the baseline?
+- How do we layout lines that has many proportional characters? Before print Japanese characters were also proportional and there are such fonts.
+- There are a few different ways of adding notes to the text. Many of them are placed in or at the side of the line. Which one should we preserve and which can be replaced by new ways of adding notes in digital text?
+- Digital for better accessibility.
+- Has to support wide variety of screen sizes, from smartphones to a large screen. For example how line length and the cap between lines should be when the size changes?
+- The dynamic behaviour of the text on UI has to be described. For example what should be highlighted when you select lines with ruby? What should be copied when it is copied?
+- Some features should work automatically without the contents prividers' or the readers' additional instructions, i.e. something that has to work even on plane text. Some features require markup, e.g. ruby, by the contents prividers. Some features should be left to the readers' choice such as font size. There were no such distinctions in print. Probably we have to be concious of such distinctions in describing features.
 
-…
 ## Draft TOC
 See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft) at GitHub wiki of this repository.
 
@@ -146,19 +144,18 @@ JLReq-d は下のような応用を念頭に置く：
 誰もが理解すべき基本的機能から、高度なもしくは特定の分野のみで必要な機能へと内容を配列する
 
 
-## デジタルにおける新しい要素のメモ
-- リフローアーキテクチャ。無数の組版が読み手の手元で生成されるアーキテクチャ
-- 冊子形態が持つ意味の喪失
-- 検索可能性
-- ラグ組や空白行で区切られる欧文スタイルのパラグラフ
-- ベースラインなど欧文ベースのエンジン上での振る舞い
-- プロポーショナルな要素を多く含むテキスト、またプロポーショナルな和文書体の扱い
-- リンクによるナビゲーションや注の機能など、デジタルテキストならではの優れた機能の利用
-- より良いアクセシビリティの可能性
-- 多様なサイズの画面。モバイルデバイスに代表される小さな画面
-- 動的挙動やUI。例えばルビが含まれたテキストを選択した場合の見かけ、コピーしたら何がコピーされるか、など。
-- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能と、ルビのようにマークアップなどでの指定が必要な機能の区別がある
-- 複数の方法がある場合、それが実装者の選択であるべき場合と、エンドユーザーの選択であるべき場合がある。印刷ではそれらを組版を行うものが決めていた。この点はアクセシビリティに重要かと思われる。
+## デジタルにおける新しい要素のランダムメモ
+- リフローする。読み手の環境や好みによって無数の異なる組版が読み手の手元で生成される
+- 冊子形態はデジタルにおいてその持つ意味の多くを喪失する。四角さはと背表紙は収納と検索のため。固定長でページに分け、それに番号を振ることはランダムアクセスのための手段。巻物、スクロールという古い形式が復活する
+- デジタルテキストは検索できる。そしてデジタルテキストは検索できるべきである。テキストとして取り出せることは特にアクセシビリティに重要。
+- ラグ組や空白行で区切られる欧文スタイルのパラグラフをどのように取り入れられるか？
+- 同様に、ベースラインなど欧文の組版の仕組みの上で和文はどのように配置され、振る舞うべきか？
+- プロポーショナルな要素を多く含むテキスト、またプロポーショナルな和文書体の扱いをどうするべきか？ 活字の現れる前は和文もプロポーショナルであった
+- 和文組版にはいくつかの異なる注の機能がある。多くは行の中、または横に配置される。どれを残すべきか。リンクによるナビゲーションや注の機能など、デジタルテキストならではの優れた機能の利用をどう組み合わせるか
+- デジタルテキストにはより良いアクセシビリティの可能性がある
+- 多様なサイズの画面。モバイルデバイスに代表される小さな画面から大きな画面までをサポートする必要がある。例えば多様なサイズに対して行長と行間はどうあるべきか？
+- UIにおける動的挙動を定義する必要がある。例えばルビが含まれたテキストを選択した場合、何がハイライトされるべきか？　コピーしたら何がコピーされるべきか？
+- 組版指定がなくても自動的に動くべき機能、言い換えるとプレーンテキストでも動くべき機能、ルビのように作成者による指定が必要な機能、そしてフォントサイズのようにエンドユーザーの選択が可能であるべき機能などの区別がある。印刷ではそれら全てをを組版を行うものが決め固定していた。この点を意識して記述する必要がありそうだ。
 
 ## 目次案
 このレポジトリのGitHub wiki内の[目次案](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft)を参照ください。
