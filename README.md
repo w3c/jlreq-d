@@ -26,6 +26,7 @@ The last motivation is accessibility. Accessibility is becoming increasingly imp
 ## Target audience
 - Software Developers
 - Content authors
+
 Including those that are with limited knowledge in Japanese language.
 
 ## Target applications
@@ -105,6 +106,7 @@ See [draft Table of Content](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-dra
 ## 対象読者
 - ソフトウェア開発者
 - コンテンツ制作者
+
 必ずしも日本語に精通しない読者を含む。
 
 ## 対象アプリケーション
