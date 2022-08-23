@@ -157,3 +157,9 @@ JLReq-d は下のような応用を念頭に置く：
 
 ## 目次案
 このレポジトリのGitHub wiki内の[目次案](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft)を参照ください。
+
+## このレポジトリの使い方
+### 編集方法
+### GitHub issues で使うラベル
+
+
