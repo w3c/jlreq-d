@@ -1,6 +1,7 @@
 # Requirements for Japanese Digital Text Layout (日本語デジタルテキスト組版の要件)
 
 The [Japanese Language Enablement home page](https://w3c.github.io/jlreq/home) provides links and information about related work and the organization of the group. 
+
 「日本語組版の要件 (JLReq)」を含め、関連したプロジェクト、および日本語タスクフォースの構成、参加の仕方などの情報は[Japanese Language Enablement, 日本語組版要件のホームページ](https://w3c.github.io/jlreq/home)にあります。
 
 ## Documents (文書)
