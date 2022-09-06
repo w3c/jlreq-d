@@ -9,7 +9,7 @@ The [Japanese Language Enablement home page](https://w3c.github.io/jlreq/home) p
 * [About this project（このプロジェクトについて）](explainer.md)
 * [draft Table of Content (目次案)](https://github.com/w3c/jlreq-d/wiki/jlreq-d-ToC-draft) (GitHub wiki)
 
-## Related documents (関連文書)
+## Resources (関連資料)
 
 * [jlreq-d-resource GitHub issue label](https://github.com/w3c/jlreq-d/issues?q=is%3Aissue+label%3Ajlreq-d-resource): Resources collected for examples (例として集められたサンプル)
 
