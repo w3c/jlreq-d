@@ -11,6 +11,7 @@ The [Japanese Language Enablement home page](https://w3c.github.io/jlreq/home) p
 
 ## Related documents (関連文書)
 
+* [jlreq-d-resource GitHub issue label](https://github.com/w3c/jlreq-d/issues?q=is%3Aissue+label%3Ajlreq-d-resource): Resources collected for examples (例として集められたサンプル)
 
 ## About this repository (このレポジトリの使い方)
 
