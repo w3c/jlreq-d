@@ -52,7 +52,7 @@ JLReq-d targets these applications:
 - It will cover technologies such as fonts that are necessary to implement Japanese language in an internationalized environment but are not covered well in the original JLReq.
 
 ### Handling of technologies
-- It will choose a few basic and stable technologies and use them in the description to facilitate development. Will clearly document ones that are assumed. The current thinkinig is Unicode, HTML/CSS, and smart fonts like OpenType.
+- It will choose a few basic and stable technologies and use them in the description to facilitate development. Will clearly document ones that are assumed. The current thinking is Unicode, HTML/CSS, and smart fonts like OpenType.
 - It will try point out when we found shortcomings in the current standards or implementations to achieve necessary layout features. These parts will need periodical updates.
 
 ### Facilitating development
