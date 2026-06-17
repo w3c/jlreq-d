@@ -4,6 +4,7 @@ This directory contains draft texts for JLreq-d which is still under early devel
 Works on building concepts and all discussions are held only in Japanese. 
 Japanese Language Task Force is planning to formally start development of JLreq-d document 
 once members reached mutual consensus on its content.
+
 このディレクトリには議論用のJLreq-dのドラフトの文書が置かれています。
 現段階では議論及びコンセプトの明確化は日本語のみで議論が行われています。
 ドラフトの詳細は以下の表をご覧ください。
