@@ -5,9 +5,13 @@ Works on building concepts and all discussions are held only in Japanese.
 Japanese Language Task Force is planning to formally start development of JLreq-d document 
 once members reached mutual consensus on its content.
 
+In addition to check files for individual sections, you can check whole draft text using [all-in-one page](draft.html).
+
 このディレクトリには議論用のJLreq-dのドラフトの文書が置かれています。
 現段階では議論及びコンセプトの明確化は日本語のみで議論が行われています。
 ドラフトの詳細は以下の表をご覧ください。
+
+各章別の原稿を個別に確認するのに加え、[全体をまとめたページ](draft.html)で確認することも可能です。
 
 ## Drafts
 
